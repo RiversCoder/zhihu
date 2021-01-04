@@ -2,28 +2,19 @@
   <header class="headerBox">
     <div class="title">
       <div class="time">
-        <span>{{day}}日</span>
-        <span>{{month}}月</span>
+        <span>01日</span>
+        <span>01月</span>
       </div>
-      <h1>知乎日报</h1>
+      <h1>大喵知乎日报</h1>
     </div>
     <div class="pic">
-      <img src alt />
+      <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2438864829,3057510527&fm=26&gp=0.jpg" alt />
     </div>
   </header>
 </template>
 <script>
 export default {
-  props:{
-    day: {
-      type: String,
-      default: '-'
-    },
-    month: {
-      type: String,
-      default: '-'
-    }
-  }
+  
 };
 </script>
 <style lang="less">
@@ -54,6 +45,7 @@ export default {
       display: block;
       width: 100%;
       height: 100%;
+      border-radius: 50%;
     }
   }
 
